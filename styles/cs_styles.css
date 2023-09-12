@@ -113,6 +113,24 @@ article dl dt a:hover {
 }
 
 
+
+div#activityPage {
+    width: 60%;
+    float: left;
+}
+dd ul {
+    float: left;
+    width: 30%;
+}
+dd ul li {
+    clear: both;
+}
+dd ul li img {
+    width: 40%;
+    float: right;
+    margin-bottom: 10px;
+}
+
 /* FOOTER STYLES */
 body footer {
     clear: both;
@@ -124,8 +142,11 @@ body footer {
     width: 100%;
     margin:30px 0px;
 }
-
-
+footer::after {
+    clear:both;
+    content:"";
+    display: table;
+}
 
 
 
