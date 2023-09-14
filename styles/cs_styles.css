@@ -24,6 +24,7 @@ body {
     padding-left: 0%;
     padding-right: 0%;
     font-family: Titillum, Geneva, sans-serif;
+    box-shadow: rgb(31,31,31) 0px 0px 50px;
 }
 
 /* HEADER STYLES */
@@ -98,9 +99,8 @@ article dl dd {
 article dl dt img {
     float: right;
     margin-bottom: 20px;
-    margin-left: 30px;
-    max-height: 250px;
-    min-height: 100px;
+    margin-left: 10px;
+    width: 45%;
 }
 article dl dt a {
     font-size: 1.7em;
@@ -115,18 +115,18 @@ article dl dt a:hover {
 
 
 div#activityPage {
-    width: 60%;
+    width: 50%;
     float: left;
 }
 dd ul {
     float: left;
-    width: 30%;
+    width: 45%;
 }
 dd ul li {
     clear: both;
 }
 dd ul li img {
-    width: 40%;
+    width: 50%;
     float: right;
     margin-bottom: 10px;
 }
