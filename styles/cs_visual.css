@@ -40,6 +40,10 @@ article > img {
     opacity: 70%;
 }
 
+article dl dt img {
+    filter: grayscale(0.4);
+}
+
 footer {
     background: linear-gradient(90deg, rgb(46, 176, 165) 0%,rgb(1, 12, 128) 50%, rgb(46, 176, 165) 100%);
     text-shadow: black 2px 2px 3px;
