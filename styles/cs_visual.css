@@ -40,8 +40,8 @@ article > img {
     opacity: 70%;
 }
 
-article dl dt img {
-    filter: grayscale(0.4);
+article dl dt img, ul#activityPageList li img {
+    filter: grayscale(0.3);
 }
 
 footer {
@@ -57,6 +57,10 @@ footer {
 
 
 /* CHALLENGE PAGE STYLES */
+section#chal1 img {
+    width: 514px;
+    height: 274px;
+}
 section#chal1 img, section#chal3 img {
     border: 3px solid rgb(21, 32, 148);
     border-radius: 10px;
