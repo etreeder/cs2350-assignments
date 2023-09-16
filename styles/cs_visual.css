@@ -1,0 +1,60 @@
+/*
+filename: cs_visual.css
+author: Ethan Reeder
+date: 9/15/23
+*/
+
+/* COMMON STYLES */
+html {
+    background-image: url(../images/backtile.png);
+}
+
+body {
+    box-shadow: rgb(35,35,35) 0px 0px 50px;
+}
+
+header {
+    perspective: 500px;
+    background: url(../images/html_icon.png) center left / 5% no-repeat,
+                    url(../images/css_icon.png) center right / 5% no-repeat; 
+}
+
+
+header > img {
+    transform: rotateX(30deg);
+}
+
+header nav li {
+    background: radial-gradient(rgb(208,208,208) 45%, rgb(122, 1, 128) 70%);
+    
+}
+
+article > img {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    padding: 5px;
+    border: 10px solid transparent;
+    border-image: url(../images/border.png) 30 round;
+    box-sizing: border-box;
+    opacity: 70%;
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(46, 176, 165) 0%,rgb(1, 12, 128) 50%, rgb(46, 176, 165) 100%);
+    text-shadow: black 2px 2px 3px;
+    
+}
+
+/* LEARNING PAGE STYLES */
+
+
+/* TRY IT OUT PAGE STYLES */
+
+
+/* CHALLENGE PAGE STYLES */
+section#chal1 img, section#chal3 img {
+    border: 3px solid rgb(21, 32, 148);
+    border-radius: 10px;
+    box-shadow: rgb(45,45,45) 5px 5px 10px;
+}

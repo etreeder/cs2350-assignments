@@ -4,11 +4,12 @@
         <title>CS 2350 Challenge Activities</title>
         <meta charset="utf-8">
         <link href="styles/cs_styles.css" rel="stylesheet">
+        <link href="styles/cs_visual.css" rel="stylesheet">
     </head>
 
     <body>
         <!--Common Header-->
-        <header>
+        <header id="chal">
             <img src="images/logo-no-background.png" alt="CS 2350 Assignments">
             <nav>
                 <ul>
@@ -19,30 +20,62 @@
             </nav>
         </header>
 
-        <article>
-            <img src="images/challenge.png" alt="challenge activities" width="100%">
+        <article id="chal">
+            <img src="images/challenge.png" alt="challenge activities">
 
             <dl>
-                <dt><a href="cs_challenge.html">1-6 Challenge: CS 2350 Assignments Website<img src="images/cs.png"></a></dt>
-                <dd><strong>THIS VERY WEBSITE!</strong> This is the first website that I built completely from scratch in this course. I had to create my own graphics, choose my own colors, and write all of the code neccessary to make it all happen.</dd>
+                <section id="chal1">
+                    <dt><a href="cs_challenge.html">1-6 Challenge: CS 2350 Assignments Website</a><img src="images/cs.png" usemap="#img_map"></dt>
+                    <map name="img_map">
+                        <area
+                            shape="rect"
+                            coords="25,75,185,100"
+                            href="index.html"
+                            alt="Learning Activities"
+                        >
+                        <area
+                            shape="rect"
+                            coords="186,75,335,100"
+                            href="cs_try.html"
+                            alt="Try It Out Activities"
+                        >
+                        <area
+                            shape="rect"
+                            coords="336,75,490,100"
+                            href="cs_challenge.html"
+                            alt="Challenge Activities"
+                        >
+                    </map>
 
-                <dt><a href="#">2-5 Challenge: Activity Page</a></dt>
-                <dd>
-                    <div id="activityPage">In this assignment, I constructed 3 pages. The first and second pages contain the story of Alan Turing, formatted and laid out in different ways. The third page contains my daily schedule for the fall. At first, it was tricky to figure out a topic for my page, but once I got the topic and content put together, everything else was pretty simple. Putting my schedule together wasn't too hard, but I did realize how busy I am with homework and taking care of my place.</div>
-                    <ul id="activityPageList">
-                        <li>
-                            <a href="https://ap-etreeder.netlify.app/story_layout1">Layout Page 1<img src="images/ap1.png"></a>
-                            <div></div>
-                        </li>
-                        <li>
-                            <a href="https://ap-etreeder.netlify.app/story_layout2">Layout Page 2<img src="images/ap2.png"></a>
-                        </li>
-                        <li>
-                            <a href="https://ap-etreeder.netlify.app/schedule/my_schedule">My Schedule<img src="images/ap3.png"></a>
-                        </li>
-                        
-                    </ul>
-                </dd>
+                    <dd><strong>THIS VERY WEBSITE!</strong> This is the first website that I built completely from scratch in this course. I had to create my own graphics, choose my own colors, and write all of the code neccessary to make it all happen.</dd>
+                </section>
+
+                <section id="chal2">
+                    <dt><a href="#">2-5 Challenge: Activity Page</a></dt>
+                    <dd>
+                        <div id="activityPage">In this assignment, I constructed 3 pages. The first and second pages contain the story of Alan Turing, formatted and laid out in different ways. The third page contains my daily schedule for the fall. At first, it was tricky to figure out a topic for my page, but once I got the topic and content put together, everything else was pretty simple. Putting my schedule together wasn't too hard, but I did realize how busy I am with homework and taking care of my place.</div>
+                        <ul id="activityPageList">
+                            <li>
+                                <a href="https://ap-etreeder.netlify.app/story_layout1">Layout Page 1
+                                    <img src="images/ap1.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://ap-etreeder.netlify.app/story_layout2">Layout Page 2
+                                    <img src="images/ap2.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://ap-etreeder.netlify.app/schedule/my_schedule">My Schedule
+                                    <img src="images/ap3.png"></a>
+                            </li>
+                            
+                        </ul>
+                    </dd>
+                </section>
+
+                <section id="chal3">
+                    <dt><a href="cs_challenge.html">3-3 Challenge: Graphic Design<img src="images/gd.png"></a></dt>
+                    <dd>This assignment had me add graphic design to this website. I added many graphic design elements to nearly all parts of this site. Advanced background, border, text, color, and layout styles were added, along with more image styles and filters. I like that I get to pick all the specifics for the style and content of the website</dd>
+                </section>
 
 
 
