@@ -115,6 +115,9 @@ div#activityPage {
     width: 50%;
     float: left;
 }
+ul#activityPageList {
+    padding-left: 50px;
+}
 dd ul {
     float: left;
     width: 45%;
