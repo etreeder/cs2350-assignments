@@ -40,7 +40,7 @@ article > img {
     opacity: 70%;
 }
 
-article dl dt img, ul#activityPageList li img {
+article dl dt img, ul li img {
     filter: grayscale(0.3);
 }
 

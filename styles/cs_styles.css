@@ -13,7 +13,7 @@
     LIGHT GREY: rgb(208, 208, 208)
 */
 
-/* LAYOUT STYLES */
+/* COMMON STYLES */
 html {
     background-color: rgb(82, 69, 57);
 }
@@ -21,14 +21,11 @@ body {
     background-color: rgb(208, 208, 208);
     margin: 0 auto;
     width:80%;
-    padding-left: 0%;
-    padding-right: 0%;
     font-family: Titillum, Geneva, sans-serif;
 }
 
 /* HEADER STYLES */
 header img {
-    display: block;
     width:80%;
     margin: 0px 10% 20px 10%;
     padding-top: 20px;
@@ -110,12 +107,12 @@ article dl dt a:hover {
 }
 
 
-
-div#activityPage {
+/* SUB-LIST STYLES */
+div#activityPage, div#pizza {
     width: 50%;
     float: left;
 }
-ul#activityPageList {
+ul#activityPageList, ul#pizzaList {
     padding-left: 50px;
 }
 dd ul {
@@ -130,6 +127,8 @@ dd ul li img {
     float: right;
     margin-bottom: 10px;
 }
+
+
 
 /* FOOTER STYLES */
 body footer {
