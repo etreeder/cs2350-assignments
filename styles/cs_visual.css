@@ -19,7 +19,6 @@ header {
                     url(../images/css_icon.png) center right / 5% no-repeat; 
 }
 
-
 header > img {
     transform: rotateX(30deg);
 }
@@ -61,7 +60,8 @@ section#chal1 img {
     width: 514px;
     height: 274px;
 }
-section#chal1 img, section#chal3 img {
+
+section#chal1 img, section#chal3 img, section#chal4 img {
     border: 3px solid rgb(21, 32, 148);
     border-radius: 10px;
     box-shadow: rgb(45,45,45) 5px 5px 10px;
