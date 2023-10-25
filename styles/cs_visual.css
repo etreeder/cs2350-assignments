@@ -57,6 +57,7 @@ footer {
 
 /* CHALLENGE PAGE STYLES */
 section#chal1 img {
+    /* set w/h to account for image map */
     width: 514px;
     height: 274px;
 }
