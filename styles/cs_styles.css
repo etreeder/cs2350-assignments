@@ -111,11 +111,11 @@ article dl dt a:hover {
 
 
 /* SUB-LIST STYLES */
-div#activityPage, div#pizza, div#DOM {
+div.multiImg {
     width: 50%;
     float: left;
 }
-ul#activityPageList, ul#pizzaList, ul#DOMList {
+ul.multiImg {
     padding-left: 50px;
 }
 dd ul {
