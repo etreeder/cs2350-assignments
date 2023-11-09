@@ -62,7 +62,7 @@ section#chal1 img {
     height: 274px;
 }
 
-section#chal1 img, #chal3 img, #chal4 img, #chal5 img, #chal7 img {
+section#chal1 img, #chal3 img, #chal4 img, #chal5 img, #chal7 img, #chal8 img {
     border: 3px solid rgb(21, 32, 148);
     border-radius: 10px;
     box-shadow: rgb(45,45,45) 5px 5px 10px;
